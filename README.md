@@ -2,7 +2,6 @@
 
 Real-time weather for any city, built with vanilla JavaScript and the [Open-Meteo](https://open-meteo.com) API.
 
-**Live demo:** https://julliyuuuh.github.io/weather-dashboard/
 
 ## Features
 
