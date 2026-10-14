@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Live Weather Dashboard</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300;500;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body data-theme="day">
+    <main>
+      <form id="form">
+        <input
+          id="q"
+          placeholder="Search a city"
+          aria-label="City name"
+          value="Manila"
+          autocomplete="off"
+        />
+        <button>Search</button>
+      </form>
+      <div id="out" aria-live="polite"><p class="msg">Loading...</p></div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
